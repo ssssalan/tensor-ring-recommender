@@ -218,3 +218,23 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# --- Tensor Ring research artifacts ---
+.idea/
+.vscode/
+data/
+checkpoints/
+outputs/
+runs/
+wandb/
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.bin
+
+# Keep audited public tables/figures under results/ and figures/.
